@@ -13,7 +13,7 @@ test('learn pw on website formy project', async ({ page }) => {
     await page.getByPlaceholder('City').fill('malang');
     await page.getByPlaceholder('State').fill('jawa timur');
     await page.getByPlaceholder('Zip code').fill('12321');
-    await page.getByPlaceholder('Country').fill('indonesia');
+    await page.getByPlaceholder('Country').fill('Jamaica');
 
     // Interaksi dengan checkbox
     await page.getByRole('link', { name: 'Components' }).click();
